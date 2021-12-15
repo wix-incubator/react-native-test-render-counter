@@ -1,0 +1,25 @@
+{
+  "name": "react-native-test-render-counter",
+  "version": "1.0.0",
+  "description": "Testing utility to track components render count in React Native applications",
+  "license": "MIT",
+  "author": "Eimantas Tučas <eimantast@wix.com>",
+  "main": "index.ts",
+  "homepage": "https://github.com/wix-incubator/react-native-test-render-counter#readme",
+  "bugs": {
+    "url": "https://github.com/wix-incubator/react-native-test-render-counter/issues"
+  },
+  "repository": {
+    "url": "https://github.com/wix-incubator/react-native-test-render-counter.git"
+  },
+  "scripts": {
+    "build": ":"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "peerDependencies": {
+    "react": "^16 || ^17"
+  }
+}
