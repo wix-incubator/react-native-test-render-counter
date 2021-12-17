@@ -24,13 +24,13 @@ it('should validate render count during like action', async () => {
     const {getRenderCountByTestID} = startRenderCounter();
     const component = driver().render();
 
-    expect(getRenderCountByTestID(testIDs.POST_CONTENT)).toEqual(2);
-    expect(getRenderCountByTestID(testIDs.POST_LIKE_BUTTON)).toEqual(2);
+    expect(getRenderCountByTestID(testIDs.POST_CONTENT)).toEqual(1);
+    expect(getRenderCountByTestID(testIDs.POST_LIKE_BUTTON)).toEqual(1);
 
     component.getPostAt(0).pressLike();
 
-    expect(getRenderCountByTestID(testIDs.POST_CONTENT)).toEqual(2);
-    expect(getRenderCountByTestID(testIDs.POST_LIKE_BUTTON)).toEqual(3);
+    expect(getRenderCountByTestID(testIDs.POST_CONTENT)).toEqual(1);
+    expect(getRenderCountByTestID(testIDs.POST_LIKE_BUTTON)).toEqual(2);
 
     stopRenderCounter();
 });
