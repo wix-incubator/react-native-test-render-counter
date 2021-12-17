@@ -10,16 +10,21 @@
     "url": "https://github.com/wix-incubator/react-native-test-render-counter/issues"
   },
   "repository": {
-    "url": "https://github.com/wix-incubator/react-native-test-render-counter.git"
+    "url": "git+https://github.com/wix-incubator/react-native-test-render-counter.git"
   },
   "scripts": {
     "build": ":"
   },
-  "dependencies": {
-  },
-  "devDependencies": {
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "peerDependencies": {
     "react": "^16 || ^17"
-  }
+  },
+  "keywords": [
+    "react-native",
+    "performance",
+    "testing",
+    "render",
+    "counter"
+  ]
 }

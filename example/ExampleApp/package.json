@@ -1,0 +1,32 @@
+{
+  "name": "ExampleApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "tsc && jest",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-native": "0.66.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/jest": "^27.0.3",
+    "@types/react-native": "^0.66.9",
+    "babel-jest": "^27.4.5",
+    "eslint": "7.14.0",
+    "jest": "^27.4.5",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-component-driver": "^0.11.0",
+    "react-native-test-render-counter": "^1.0.0",
+    "react-test-renderer": "17.0.2",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4"
+  }
+}
