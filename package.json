@@ -1,6 +1,6 @@
 {
   "name": "react-native-test-render-counter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Testing utility to track components render count in React Native applications",
   "license": "MIT",
   "author": "Eimantas Tučas <eimantast@wix.com>",
